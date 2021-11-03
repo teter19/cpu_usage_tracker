@@ -1,6 +1,5 @@
 #final:
 #	gcc main.c -o main
-
 $(CC) = gcc	#variable;
 #-pthread is necessary for compiling code with threads
 #-std=c11 

@@ -27,7 +27,6 @@ void* Reader_function(void *arg){
     iptr[1],iptr[2],iptr[3],iptr[4],
     iptr[5],iptr[6],iptr[7],iptr[8],
     iptr[9]);
-
     fclose(stat);
     
     return iptr;

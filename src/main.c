@@ -6,7 +6,6 @@
 #include "ReaderFile.c"
 #include "AnalyzerFile.c"
 
-
 int main(){ 
  pthread_t Reader,Analyzer;
  int *result; //this can store a ponter to anything, like struct etc

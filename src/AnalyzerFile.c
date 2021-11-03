@@ -23,7 +23,6 @@ void * Analyzer_function(void *arg){
     guest = *(iptr+8);
     guest_nice = *(iptr+9);
     //printf("aaaaaaaaaaaaaaa %d ", guest_nice);
-
     //calculations
     //formula:
     //https://supportcenter.checkpoint.com/supportcenter/portal?eventSubmit_doGoviewsolutiondetails=&solutionid=sk65143&t=1635789403266&fbclid=IwAR1aRQ3aLA_Oc3cBju3zBV-bcGY9_O-6ufXEeHhFsCA8R5GR1_Z2xkvztIw

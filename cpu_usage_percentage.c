@@ -17,7 +17,6 @@ unsigned long long int totaltime = usertime + nicetime + systemalltime + idleall
 void cpu_usage_tracker (){
     printf("\n file cpu tracker");
 }
-
 /*int i=0;
 void *myTurn(void *arg){
   int *iptr = (int *)malloc(sizeof(int));
