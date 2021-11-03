@@ -3,21 +3,9 @@
 #include <pthread.h>
 #include <unistd.h>
 
-//#include "cpu_usage_percentage.c"
 #include "ReaderFile.c"
 #include "AnalyzerFile.c"
 
-/*int i=0;
-void *myTurn(void *arg){
-  int *iptr = (int *)malloc(sizeof(int));
-*iptr=5;
-
-  for(i;i<10; i++){
-    sleep(1);
-    printf("\nMy turn"); 
-  }
-  return iptr;
-}*/
 
 int main(){ 
  pthread_t Reader,Analyzer;
@@ -37,9 +25,6 @@ int main(){
  /*for (i=0; i<11; i++){
   printf("output2: %d", *(result2+i));
  }*/
- 
-
  //Reader();
-
   return 0;
 }

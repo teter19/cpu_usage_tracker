@@ -14,7 +14,6 @@ void* Reader_function(void *arg){
     /*fscanf(stat, "%s %d %d %d %d %d %d %d %d %d %d",&cpu, &columns[0],&columns[1],
     &columns[2],&columns[3],&columns[4],&columns[5],&columns[6],
     &columns[7],&columns[8],&columns[9]);
-
     printf("aaaaaaa %s %d %d %d %d %d %d %d %d %d %d",cpu, columns[0],columns[1],
     columns[2],columns[3],columns[4],columns[5],columns[6],
     columns[7],columns[8],columns[9]);*/

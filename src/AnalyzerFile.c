@@ -22,7 +22,6 @@ void * Analyzer_function(void *arg){
     steal = *(iptr+7);
     guest = *(iptr+8);
     guest_nice = *(iptr+9);
-
     //printf("aaaaaaaaaaaaaaa %d ", guest_nice);
 
     //calculations
